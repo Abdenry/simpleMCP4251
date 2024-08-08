@@ -8,6 +8,7 @@ void MCP4251init(){
     SPI.begin();
 }
 
+// Increments the chosen wiper by 1
 void MCP4251increment(int wiperAddress){
     uint8_t commandByte = 0;
     
@@ -24,6 +25,7 @@ void MCP4251increment(int wiperAddress){
     }
 }
 
+// Decrements the chosen wiper by 1
 void MCP4251decrement(int wiperAddress){
     uint8_t commandByte = 0;
     
@@ -40,6 +42,7 @@ void MCP4251decrement(int wiperAddress){
     }
 }
 
+// Sets the wiper to a postion from 0 to 257
 void MCP4251writeData(int wiperAddress, uint16_t value){
     uint8_t commandByte = 0;
     uint8_t dataByte = 0;
