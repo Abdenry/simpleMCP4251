@@ -1,5 +1,5 @@
 # Simple MCP4251 Driver
-This driver library provides basic functions for use with the MCP4251 digital potentiometers, written for specifically for Tazer Cards. This device has only been tested with the Arduino Uno boards with the chip enable pin set as D10.
+This driver library provides basic functions for use with the MCP4251 digital potentiometers. This device has only been tested with the Arduino Uno/Nano boards with the chip enable pin set as D10.
 
 ## Functions
 ### MCP4251init()
