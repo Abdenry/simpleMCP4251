@@ -24,7 +24,7 @@ MCP4251decrement(WIPER0ADD);
 ### MCP4251writeData(int wiperAddress, uint16_t value)
 Writes **value** to the given wiperAddress as defined in the header file. Checks if the provided unin16_t value is greater than 255, in which case it is automatically set to the maximum value of the MCP4251 ([datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/22060b.pdf)).
 ```
-MCP4251writeDattta(WIPER0ADD, 257);
+MCP4251writeData(WIPER0ADD, 257);
 ```
 
 # Wiring Diagram
